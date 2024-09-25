@@ -1,0 +1,4 @@
+![6f5cfd5060b9ae3ee5fd5da1810f9a4](https://github.com/user-attachments/assets/c8bdeb6d-67d4-42cd-81e7-5249ef4d18b6)
+The overview architecture of our proposed FMVML method. FMVML jointly utilizes the commonality across different views and individuality in each view to achieve cross-view feature fusion on the federated learning framework, as well as leverages label correlations. 
+In each client, FMVML excavates the individual feature Ui from each Xi by using corresponding mapping matrix Vi and caputure the individual semantic information Pi with the coefficient matrix Wi. In the global server, FMVML extracts the consensus feature U and capture the common semantics P by using coefficient matrix W. 
+Moreover, FMVML employs a correlation measurement strategy to enhance the accuracy and comprehensiveness of predictions by maintaining consistency between pseudo-labels and true labels Y.
